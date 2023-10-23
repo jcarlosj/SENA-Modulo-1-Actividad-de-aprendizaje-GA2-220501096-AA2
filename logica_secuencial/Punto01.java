@@ -1,3 +1,5 @@
+package logica_secuencial;
+
 import java.util.Scanner;
 
 class Punto01 {
@@ -8,7 +10,7 @@ class Punto01 {
         double area;
 
         // Leemos los valores de base y altura
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner( System.in );
         System.out.println( "Ingrese la base del triángulo: " );
         base = sc.nextDouble();
         System.out.println( "Ingrese la altura del triángulo: " );
