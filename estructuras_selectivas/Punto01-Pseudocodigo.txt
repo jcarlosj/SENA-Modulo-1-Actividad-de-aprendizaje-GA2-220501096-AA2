@@ -1,0 +1,20 @@
+Inicio
+
+// Declarar variables
+edad: Entero
+edadVoto: Entero
+
+// Solicitar la edad de la persona
+Leer edad
+
+// Calcular la edad para votar
+edadVoto = 18
+
+// Determinar si la persona puede votar
+Si edad >= edadVoto Entonces
+    Imprimir "La persona puede votar"
+Sino
+    Imprimir "La persona no puede votar"
+Fin Si
+
+Fin
