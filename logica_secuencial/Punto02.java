@@ -6,7 +6,7 @@ public class Punto02 {
     public static void main( String[] args ) {
         // Declaramos las variables
         double pesosColombianos;
-        double tasaCambio;
+        final double tasaCambio;
         double dolares;
 
         // Leemos el valor de pesosColombianos
