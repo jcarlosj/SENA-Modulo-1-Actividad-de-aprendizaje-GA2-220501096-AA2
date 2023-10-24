@@ -1,0 +1,16 @@
+Pseudocodigo:  ¿Cuál es su salario al cabo de 6 años?
+
+Inicio
+    salario_inicial = 1500
+    incremento_anual = 0.10
+    años = 6
+    salario_actual = salario_inicial
+
+    Para i desde 1 hasta años
+        incremento = salario_actual * incremento_anual
+        salario_actual = salario_actual + incremento
+        Mostrar "Salario en el año ", i, " es: ", salario_actual
+    Fin Para
+
+    Mostrar "Salario al cabo de 6 años: ", salario_actual
+Fin
