@@ -1,0 +1,23 @@
+Pseudocodigo: Realice el algoritmo y represente mediante pseudocódigo 2. Se requiere un algoritmo para determinar de N cantidades, cuántas son cero, cuántas son menores a cero, y cuántas son mayores a cero. 
+
+Inicio
+    Leer N
+    cero = 0
+    menores_cero = 0
+    mayores_cero = 0
+
+    Para i desde 1 hasta N
+        Leer numero
+        Si numero es igual a 0
+            cero = cero + 1
+        Sino si numero es menor a 0
+            menores_cero = menores_cero + 1
+        Sino
+            mayores_cero = mayores_cero + 1
+        Fin Si
+    Fin Para
+
+    Mostrar "Cantidad de ceros: ", cero
+    Mostrar "Cantidad de números menores a cero: ", menores_cero
+    Mostrar "Cantidad de números mayores a cero: ", mayores_cero
+Fin
