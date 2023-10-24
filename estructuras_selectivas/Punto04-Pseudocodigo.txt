@@ -1,0 +1,21 @@
+Inicio
+    // Ingresar el precio del artículo
+    Mostrar "Ingrese el precio del artículo: "
+    Leer precio
+
+    // Verificar el descuento correspondiente
+    Si precio >= 200
+        descuento = precio * 0.15
+    Sino si precio > 100 y precio < 200
+        descuento = precio * 0.12
+    Sino
+        descuento = precio * 0.10
+    Fin Si
+
+    // Calcular el costo después del descuento
+    costo_con_descuento = precio - descuento
+
+    // Mostrar el resultado
+    Mostrar "El descuento es: ", descuento
+    Mostrar "El costo con descuento es: ", costo_con_descuento
+Fin
