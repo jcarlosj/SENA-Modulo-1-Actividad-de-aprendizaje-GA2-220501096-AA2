@@ -1,0 +1,15 @@
+Inicio
+    // Ingresar la cantidad de años de antigüedad del empleado
+    Mostrar "Ingrese la cantidad de años de antigüedad del empleado: "
+    Leer antiguedad
+
+    // Determinar el bono correspondiente según la antigüedad
+    Si antiguedad > 0 Y antiguedad < 6
+        bono = 100
+    Sino
+        bono = 1000
+    Fin Si
+
+    // Mostrar el bono que recibirá el trabajador
+    Mostrar "El bono que recibirá el trabajador es: ", bono
+Fin
