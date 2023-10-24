@@ -1,0 +1,14 @@
+Pseudocodigo: determinar cuánto ahorrará en pesos una persona diariamente, y en un año, si ahorra $3 el primero de enero, $9 el dos de enero, $27 el 3 de enero y así sucesivamente todo el año
+
+Inicio
+    ahorro_diario = 3
+    ahorro_anual = 0
+    dias_en_ano = 365
+
+    Para i desde 1 hasta dias_en_ano
+        ahorro_anual = ahorro_anual + ahorro_diario
+        ahorro_diario = ahorro_diario * 3
+    Fin Para
+
+    Mostrar "Ahorro anual en pesos: ", ahorro_anual
+Fin
