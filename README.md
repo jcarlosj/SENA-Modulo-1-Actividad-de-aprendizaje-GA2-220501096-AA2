@@ -1,10 +1,14 @@
-# TÉCNICO EN PROGRAMACIÓN DE APLICACIONES PARA DISPOSITIVOS MÓVILES.
+# Descripción de ka actividad didáctica 
+TÉCNICO EN PROGRAMACIÓN DE APLICACIONES PARA DISPOSITIVOS MÓVILES.
 
 Actividad de aprendizaje GA2-220501096-AA2.
 
-Diseñar el algoritmo que permita la solución del problema planteado.
-
-Informe técnico del proceso GA2-220501096-AA2-EV01.
+| Descripción de la actividad didáctica | |
+| --- | --- |
+| Nombre de la actividad | Taller de aplicación de conceptos iniciales de algoritmia |
+| Objetivo de la actividad | Afianzar y aplicar los conceptos más importantes de la algoritmia a partir del desarrollo de ejercicios prácticos |
+| Tipo de actividad sugerida | Desarrollar cada uno de los enunciados propuestos, siguiendo la lógica y cada uno de los pasos adecuados para resolver el problema enunciado |
+| Archivo de entrega | Documento denominado ID_Ficha_PrimerNombre_PrimerApellido _Informe Tecnico codificación de Algoritmos |
 
 ## Algoritmos de lógica secuencial
 
